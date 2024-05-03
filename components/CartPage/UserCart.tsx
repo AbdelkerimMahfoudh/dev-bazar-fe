@@ -103,7 +103,7 @@ export default function UserCart() {
             </div>
             :
             <div className="grid place-items-center">
-            <img src="/emptyCart.svg" alt="Empty Wishlist" className="w-96" />
+            <img src="./emptyCart.svg" alt="Empty Wishlist" className="w-96" />
             There is nothing in your cart, let's add some items.
                 <Link href="/wishlist">
                     <Button className="m-2" type="primary" ghost>Add Items from Wishlist</Button>
